@@ -1,5 +1,6 @@
 # suse-rmt-container
 SUSE Repository Mirroring Tool (RMT) run in container
+Based on: https://github.com/thkukuk/rmt-container/blob/master/podman/run-rmt-containerized.sh
 
 ## Prerequisites
 
@@ -10,6 +11,9 @@ Network
 * access to registry.suse.com
 
 ## Script usage
+
+Configure SCC mirroring credentials in the script (SCC_USERNAME and SCC_PASSWORD).
+Then run the script to start or stop RMT.
 
 ```bash
 # start rmt components
